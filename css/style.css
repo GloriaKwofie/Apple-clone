@@ -2,7 +2,8 @@ a {
     text-decoration: none;
 }
 
-/*---------Header styles------*/
+/*-----------Header styling-----*/
+
 header {
     background: rgba(0, 0, 0, 0.8);
     display: flex;
@@ -18,4 +19,18 @@ nav ul {
     list-style: none;
     align-items: center;
     color: white;
+}
+nav a {
+    color: white;
+}
+
+/*--------------main stylying-----*/
+
+.shop-online {
+    background-color: #fbfbfd;
+    color: #1d1d1f;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0%;
+
 }
