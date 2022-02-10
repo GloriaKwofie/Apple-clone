@@ -27,10 +27,27 @@ nav a {
 /*--------------main stylying-----*/
 
 .shop-online {
-    background-color: #fbfbfd;
+    background-color:#fbfbfd;
     color: #1d1d1f;
     text-align: center;
     padding: 20px 0;
     margin-top: 0%;
 
+}
+
+.iphone-pro {
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_largetall.jpg);
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#oh {
+    padding-top: 5px;
 }
