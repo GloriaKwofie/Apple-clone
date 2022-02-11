@@ -140,3 +140,17 @@ nav a {
 
 }
 
+.multi .future {
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_largetall.jpg);
+    width: 45%;
+    height: 528px;
+    background-position: center;
+    margin-bottom: 0%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
