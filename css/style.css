@@ -5,7 +5,7 @@ a {
 }
 
 h1 ,h2 and h3 {
-    line-height: 5px;
+    line-height: 3px;
 }
 
 
@@ -26,6 +26,7 @@ nav ul {
     list-style: none;
     align-items: center;
     color: white;
+    border-image-repeat: none;
     
 }
 nav a {
@@ -104,11 +105,11 @@ nav a {
 }
 
 .multi-full {
-    width: 45%;
+    width: 49%;
     height: 528px;
     background-position: center;
-    margin-bottom: 0%;
-    margin-top: 10px;
+    margin-bottom: 11px;
+    margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -130,12 +131,12 @@ nav a {
 
 .limited {
     background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_large.jpg);
-    
+    line-height: 0%;
 }
 
 .future {
     background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_large.jpg);
- 
+    color: white;
 
 }
 
@@ -147,5 +148,14 @@ nav a {
 .tv {
     background-image: url(https://www.apple.com/v/home/aj/images/promos/tv-plus-the-sky-is-everywhere/promo_sky__fu99g2ymabiy_large.jpg);
 
+}
+
+/*----------media queries---*/
+
+@media screen and (max-width: 475px){
+    nav ul {
+        flex-direction: column;
+    }
+    
 }
 
