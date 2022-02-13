@@ -152,10 +152,34 @@ nav a {
 
 /*----------media queries---*/
 
-@media screen and (max-width: 475px){
+@media screen and (max-width: 329px){
     nav ul {
         flex-direction: column;
+    }
+
+    .multi-cont {
+        flex-direction: column;
+        font-size: small;
+    }
+
+    .multi-cont article {
+        width: 100%;
+
     }
     
 }
 
+@media screen and (min-width: 330px) and (max-width: 992px){
+    nav ul {
+        flex-direction: column;
+    }
+
+    .multi-cont {
+        flex-direction: column;
+    }
+
+    .multi-cont article {
+        width: 100%;
+
+    }
+}
